@@ -1,0 +1,82 @@
+Lizzie 0.6 yzy Modified Version 20200609 Keyboard Shortcuts List
+
+* Operations
+Alt+X                 - Open configuration interface - Engine
+Shift+X               - Open configuration interface - Interface
+Space                 - Toggle analysis on/off
+Ctrl+(1-9,0)  (0=engine 10)       - Switch engine
+A                     - Auto analysis
+Up/Down               - Previous/Next move
+Scroll wheel          - Previous/Next move (can control small board when on small board)
+Scroll wheel click    - Play the variation at mouse position and return to first move of variation (use scroll wheel subsequently)
+Scroll wheel long press - Replay branch, place mouse on recommended point and long press scroll wheel to quickly view step by step
+Comma                 - Play best move, if mouse points to variation, play to end of variation
+Right mouse button    - Force analysis, don't analyze/Edit mode (can move stones, invert color, delete stones)
+Left/Right mouse button on small board - Previous/Next variation
+/ or Numpad .         - Count territory (requires ZEN.DLL and ZENGTP.EXE)
+P                     - Pass
+PageUp/Down           - Rollback/Forward 10 moves
+Ctrl+Up/Down          - Rollback/Forward 10 moves
+Home                  - First move
+End                   - Last move
+B                     - Return to main branch
+Ctrl+Home             - Clear panel
+Ctrl+Left             - Jump to branch start
+Shift+Up              - Jump to previous branch child node
+Ctrl+Shift+Up/Down    - Jump to previous/next node with comments
+Left/Right            - Previous/Next branch
+Shift+Left/Right      - Move branch
+Delete/Backspace      - Delete stone
+Shift+Delete/Backspace - Delete branch
+R                     - Replay branch, place mouse on recommended point and press R to quickly view step by step
+F                     - Show/hide AI recommended points
+Shift+F               - Show/hide AI recommended point variations when hovering mouse
+V                     - Try move, press second time to restore board state before try move
+Alt+S                 - Save screenshot
+Alt+O                 - Open board synchronization tool
+Ctrl+M                - Historical move modification
+
+* Game Records
+O                     - Open game record
+Ctrl+O                - Batch analyze game records
+S                     - Save game record
+Ctrl+C                - Copy game record
+Ctrl+V                - Paste game record
+Shift+C               - Copy large board image to clipboard
+
+* Display
+1-9                   - Show variations for recommended points 1-9
+U                     - Show AI analysis list
+Y                     - Show super eagle eye
+Q                     - Toggle window always on top
+CTRL+K                - Toggle recommended point colors: red-green degree sorted by LCB / sorted by calculation count
+CTRL+L                - Toggle display LCB / win rate
+X                     - Show keyboard shortcuts list
+"[" and "]" keys      - Move board left/right
+ALT+V                 - Toggle whether to show AI suggestions when mouse hovers (including small board)
+ALT+W                 - Show win rate panel
+ALT+G                 - Show branch panel
+ALT+T                 - Show comment panel
+ALT+Z                 - Show small board
+C                     - Show/hide coordinates
+J                     - Detailed display/show/hide next move
+Ctrl+F                - Enlarge small board
+H                     - Show pure network (press again to close)
+T                     - Show policy network (press again to close)
+F                     - Show/hide recommended points
+Z                     - Temporarily hide recommended points (hold down)
+
+M                     - Show move numbers: [don't show] -> [show all move numbers] -> [only show recent move numbers]
+Alt+M                 - Toggle whether to always show all move numbers within branches
+Ctrl+T                - Show comment node colors
+Ctrl+W                - Enlarge win rate curve panel
+Shift + Z             - Whether to show AI analysis
+
+* Others
+N                     - Play against AI (Genmove mode)
+ALT+N                 - Play against AI (Analysis mode)
+Enter                 - Continue playing against AI (Analysis mode)
+ALT+Enter             - Continue playing against AI (Genmove mode)
+,                     - AI plays best move
+I                     - Game information (modify komi)
+CTRL+I                - Modify board size

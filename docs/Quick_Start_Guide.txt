@@ -1,0 +1,103 @@
+========================================
+   Lizzieyzy Go AI Portable Bundle v1.1
+   User Guide
+========================================
+
+【How to Start】
+Double-click Lizzieyzy-2.5.3-win64.exe to launch. You can also create a desktop shortcut for easier access.
+If an initialization settings dialog appears, just load the default settings (you can modify them later in the application).
+
+【Switching Engines】
+After launching, select from the dropdown menu at the top of the software:
+  - KataGo-18b  (Faster speed, suitable for regular computers)
+  - KataGo-28b  (Stronger playing ability, suitable for high-performance computers)
+
+【Importing Game Records】
+Simply drag and drop .sgf game record files into the software window to start analysis.
+
+【First Launch Notes】
+On first run, the software will automatically perform GPU adaptation (approximately 3-5 minutes).
+This is normal behavior, please wait patiently and do not force close the program. 
+(Press "E" key within the program to display the command window and view progress.)
+
+
+========================================
+  Performance Tuning (v1.1 New Feature, Highly Recommended)
+========================================
+💻 After starting the program, you may see a prompt: [Detected first-time KataGo run, you may need to set 'search thread count' for better search performance. See 'KataGo Search Thread Configuration Method' document in the package documentation.] You can close this prompt and continue using the software, and it's recommended to complete the following automatic optimization when convenient.         
+💡 To make KataGo run fastest on your computer, you can run the one-click tuning script after first launch.
+
+—————————— ⭐ Recommended Method (Best for Beginners, Easiest) ——————————
+Just double-click 【Run_First_Time_Tuning.bat】 in the project root directory!
+
+The script will automatically run benchmarks for both 18b and 28b models sequentially.
+The entire process is fully automatic with no manual intervention needed, taking approximately 2-6 minutes to complete.
+When the window displays "All tuning completed!", you're all set.
+
+—————————— Alternative: Tune Individual Models Separately ——————————
+If you only want to tune one engine, you can operate separately:
+
+For 18b engine:
+1. Navigate to the engine_18b folder
+2. Double-click to run run_benchmark_18b.bat
+3. Wait for the window to complete automatically (about 1-3 minutes), progress information will be displayed
+4. After completion, the script will automatically update configuration, no manual operation needed
+
+For 28b engine: Navigate to engine_28b folder, double-click run_benchmark_28b.bat, follow the same steps above
+
+⚠️ Important Note: Do NOT open Lizzieyzy (the Go board interface) during the tuning process, otherwise the script may fail.
+
+> After changing graphics cards or updating drivers, it's recommended to run the tuning script again for optimal performance.
+> If you only use the 18b engine, you only need to run the 18b tuning.
+
+
+========================================
+  AMD Graphics Card Users Attention
+========================================
+
+If you encounter the error "Got nonfinite for policy sum" after startup, please follow these steps:
+
+1. Navigate to the engine_18b folder
+2. Open default_gtp.cfg with Notepad
+3. Add a separate line at the end of the file: openclUseFP16 = false
+4. Save the file and restart the software
+
+(Same operation for 28b engine, in the engine_28b folder)
+
+
+========================================
+  One-Click Tuning - Troubleshooting
+========================================
+
+If double-clicking Run_First_Time_Tuning.bat or run_benchmark_*.bat produces no response or errors:
+
+1. Right-click the .bat file and select "Run as administrator".
+2. Ensure the extracted project path does not contain Chinese characters or spaces (e.g., D:\Lizzieyzy).
+3. If you encounter CL_PLATFORM_NOT_FOUND_KHR error, please update your graphics card driver.
+4. If still unresolved, please submit error screenshots to GitHub Discussions.
+
+
+========================================
+  Frequently Asked Questions
+========================================
+
+Q: No response when double-clicking the shortcut?
+A: Please ensure the bundle path does not contain Chinese characters or spaces, e.g., D:\Lizzieyzy
+
+Q: Software shows "File not found"?
+A: Do not move or delete any files within the engine_18b, engine_28b, and jre folders.
+
+Q: Why does the analysis speed feel slow?
+A: It's recommended to run 【Run_First_Time_Tuning.bat】 in the root directory (see instructions above), which will automatically find the optimal configuration for your graphics card.
+
+
+========================================
+  Getting Help & Feedback
+========================================
+
+- Report Bugs: https://github.com/Coderchen-001/AI_GO/issues
+- General Discussion: https://github.com/Coderchen-001/AI_GO/discussions
+
+========================================
+  Enjoy Your Go Games! 🎋
+========================================

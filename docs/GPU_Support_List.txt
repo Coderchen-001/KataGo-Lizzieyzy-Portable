@@ -1,0 +1,53 @@
+═══════════════════════════════════════════════════════════════
+        Lizzieyzy-KataGo Easy Bundle · GPU Compatibility List
+                Tested & Ready to Use Out of the Box
+═══════════════════════════════════════════════════════════════
+
+【✅ Successfully Tested GPUs (Covering Mainstream Architectures from Recent Years)】
+
+The built-in OpenCL auto-tuning engine has completed full stress testing 
+on the following typical GPUs, ensuring one-click operation without errors:
+
+  1. Intel Iris Xe Integrated Graphics    (Representing ultrabooks/office laptops)
+  2. NVIDIA GTX 1070 Ti                   (Representing Pascal architecture, 2016)
+  3. NVIDIA GTX 1660 Super                (Representing Turing architecture, no ray tracing, 2019)
+  4. NVIDIA RTX 5080                      (Representing latest Blackwell architecture, 2026)
+  5. AMD RX 6900 XT                       (Representing RDNA2 architecture, AMD flagship)
+
+Time span covered: 2016 — 2026
+Vendor coverage: All mainstream GPUs from Intel / NVIDIA / AMD
+
+
+【🛡️ Why Your GPU Will Likely Work Too?】
+
+This bundle is not specifically modified for particular GPUs, but rather 
+based on KataGo's official OpenCL backend with compatibility hardening, 
+featuring the following "anti-crash" characteristics:
+
+  · Automatically cleans BOM encoding anomalies produced by Windows Notepad (prevents crashes)
+  · Intelligently detects VRAM size and automatically caps maxBatchSize (prevents VRAM overflow)
+  · Automatically identifies AMD/NVIDIA/Intel driver versions and downgrades to conservative parameters (prevents timeouts)
+
+Even if your GPU model is not listed above, the script will automatically 
+switch to "conservative fallback mode" during startup, ensuring the software 
+opens normally without direct crashes.
+
+
+【💡 Message to Users】
+
+If you're using this for the first time:
+  Please double-click "Run_First_Time_Tuning.bat" in the root directory, wait for 
+  the black window to complete automatically, and the program will tailor the optimal 
+  search thread count for you.
+
+If you're an experienced user:
+  You can directly check the default_gtp.cfg.bak backup files in the engine_*/ 
+  directories - the script has preserved the original configuration before each tuning.
+
+
+【📅 Last Updated】
+June 2026 · Universally tested with KataGo 18B/28B/40B weights
+
+═══════════════════════════════════════════════════════════════
+               For issues, please provide your GPU model when reporting
+═══════════════════════════════════════════════════════════════
