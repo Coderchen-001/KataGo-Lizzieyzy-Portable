@@ -4,6 +4,12 @@ An out-of-the-box Go AI analysis tool powered by the KataGo engine, featuring an
 
 ---
 
+<div align="center">
+  <img src="docs/main-interface.png" alt="Lizzieyzy Main Interface" width="100%" style="max-width: 1200px;">
+</div>
+
+---
+
 ## ✨ Core Features
 
 - **Dual Engine Configuration**: Built-in KataGo **18b** and **28b** weight models — switch between them with a single click in the software to balance speed and strength.
