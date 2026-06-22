@@ -138,7 +138,7 @@ If double-clicking `Run_First_Time_Tuning.bat` or `run_benchmark_*.bat` produces
 ## 📦 File Structure
 
 ```text
-Lizzieyzy-KataGo-Portable_v1.1/
+Lizzieyzy-KataGo-Portable_v1.1.0-win64/
 ├── Create_Desktop_Shortcut.bat    # Desktop shortcut creator (double-click to run)
 ├── Run_First_Time_Tuning.bat      # One-click tuning launcher (v1.1, recommended)
 ├── engine_18b/                    # KataGo 18b engine
