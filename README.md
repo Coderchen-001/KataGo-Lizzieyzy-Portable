@@ -7,7 +7,7 @@ An out-of-the-box Go AI analysis tool powered by the KataGo engine, featuring an
 ## ✨ Core Features
 
 - **Dual Engine Configuration**: Built-in KataGo **18b** and **28b** weight models — switch between them with a single click in the software to balance speed and strength.
-- **One-Click Performance Tuning** (v1.1 Feature): Double-click `Run_First_Time_Tuning.bat` in the root directory to automatically tune both models for optimal performance. No manual intervention required — truly zero门槛 for all users.
+- **One-Click Performance Tuning** (v1.1 Feature): Double-click `Run_First_Time_Tuning.bat` in the root directory to automatically tune both models for optimal performance. No manual intervention required — truly zero-threshold for all users.
 - **Fully Portable**: Comes bundled with a Java runtime (OpenJDK 17). No additional software installation required — **extract and play**.
 - **Ready to Use**: All paths are pre-configured as relative paths. Move the folder anywhere without breaking anything.
 - **Cross-Vendor GPU Support**: Based on the OpenCL universal backend, supporting **NVIDIA, AMD, Intel**, and other mainstream GPUs.
