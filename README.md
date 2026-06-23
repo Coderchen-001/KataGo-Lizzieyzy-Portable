@@ -194,6 +194,8 @@ This bundle is a redistribution of the above open-source components without modi
 - **KataGo**: MIT License → `/engine_18b/LICENSE` and `/engine_28b/LICENSE`
 - **OpenJDK**: GPL v2 with Classpath Exception → `/jre/java17/LICENSE`
 
+Please review and comply with the respective license terms for each component when using or redistributing this bundle.
+
 This bundle is provided for learning and communication purposes only. Commercial use is not permitted.
 
 ## 📞 Getting Help
